@@ -14,6 +14,10 @@
     * email format
     * username presence and uniqueness
     * message body, conversation_id and user_id presence
+  * protect_from_forgery: helps prevent CRSF attacks
+  * authorizations:
+    * check that user is signed in
+    * check that user is in conversation
 
 
 ## REACT TODO
@@ -21,8 +25,7 @@
   * aaaaaa
 
 ## LINKS
-https://secushare.org/end2end#header
-
-implementation of end-to-end with rails and virgil: https://github.com/cbetta/virgil-rails-chat/tree/after/app/views
-
-guide to general encryption with rails: https://qiita.com/alokrawat050/items/ff6dceec32baa0c8fa57
+  * https://secushare.org/end2end#header
+  * implementation of end-to-end with rails and virgil: https://github.com/cbetta/virgil-rails-chat/tree/after/app/views
+  * guide to general encryption with rails: https://qiita.com/alokrawat050/items/ff6dceec32baa0c8fa57
+  * tool to test rails security: https://brakemanscanner.org/
