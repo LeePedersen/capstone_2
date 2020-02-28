@@ -1,24 +1,16 @@
-# README
+# PLANNING
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## RAILS STRUCTURE TODO
+  * create controllers, models for conversations, messages
+  * default page: sign in page
+  * user authentication
+  * permissions for users
+  * views??
 
-Things you may want to cover:
+## REACT TODO
+  * figure out what I need to do
 
-* Ruby version
+## LINKS
+https://secushare.org/end2end#header
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+implementation of end-to-end with rails and virgil: https://github.com/cbetta/virgil-rails-chat/tree/after/app/views
