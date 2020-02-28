@@ -7,8 +7,18 @@
   * permissions for users
   * views??
 
+## RAILS DONE
+  * add bcrypt
+  * validations:
+    * password and password confirmation
+    * email format
+    * username presence and uniqueness
+    * message body, conversation_id and user_id presence
+
+
 ## REACT TODO
   * figure out what I need to do
+  * aaaaaa
 
 ## LINKS
 https://secushare.org/end2end#header
