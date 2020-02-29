@@ -31,7 +31,7 @@ class UsersController < ApplicationController
     @user = User.find(session[:user_id])
     @user.destroy
     session[:user_id] = nil
-    redirect_to posts_path
+    redirect_to '/'
   end
 
   private
