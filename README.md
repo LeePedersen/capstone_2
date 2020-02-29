@@ -30,3 +30,4 @@
   * guide to general encryption with rails: https://qiita.com/alokrawat050/items/ff6dceec32baa0c8fa57
   * tool to test rails security: https://brakemanscanner.org/
   * more encryption with rails: https://pawelurbanek.com/rails-secure-encrypt-decrypt
+  * tool to validate strong password: https://api.rubyonrails.org/classes/ActiveModel/SecurePassword/ClassMethods.html
