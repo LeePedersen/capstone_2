@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+// import Conversation from './Conversation';
 
 class Conversations extends React.Component {
   constructor(props) {
@@ -25,12 +26,14 @@ class Conversations extends React.Component {
   render() {
     const { conversations } = this.state;
     return (
-      const allConversations = conversations.map((conversation, index) => (
-        <div key={index}>
-          <p>Conversation between {conversation.user1_id} and {conversation.user2_id}</p>
-          <p><Link to={`/conversation/${conversation.id}`}>View Conversation</Link></p>
+      <div>
+      {conversations.map((conversation) =>
+        <div>
+          <p>{conversation.user1_id}</p>
+          <p>{conversation.user2_id}</p>
         </div>
-      ))
+      )}
+      </div>
     )
   }
 }

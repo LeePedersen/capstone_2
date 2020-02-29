@@ -5,3 +5,13 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+# Conversation.destroy_all
+# User.destroy_all
+#
+# 5.times do |index|
+#   user! = User.create!(email: Faker::Internet:email, username: Faker::Name.name, password: 'Password')
+#   Conversation.create!(user1_id: , user2_id: )
+# end
+#
+# p "Created #{Conversation.count} conversations"
