@@ -7,7 +7,7 @@
     <% elsif conversation.user2_id == @user.id %>
       <p><% user2 = User.find(conversation.user1_id) %></p>
     <% end %>
-    <p><%= link_to user2.name, conversation_messages_path(conversation) %></p>
+    <p><%= link_to user2.username, conversation_messages_path(conversation) %></p>
   <% end %>
 <% end %>
 
@@ -15,7 +15,7 @@
 <% if @users %>
   <% @users.each do |user| %>
     <% if user.id != @user.id %>
-      <p><%= user.name %> <%= link_to 'Message me!', conversations_path(user1_id: current_user.id, user2_id: user.id), method: 'post'%></p>
+      <p><%= user.username %> <%= link_to 'Message me!', conversations_path(user1_id: current_user.id, user2_id: user.id), method: 'post'%></p>
     <% end %>
   <% end %>
 <% end %>

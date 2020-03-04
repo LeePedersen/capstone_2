@@ -5,13 +5,11 @@ _Messaging site/app? with rails and react, using end-to-end encryption_
 ## PLANNING
 
 ### RAILS STRUCTURE TODO
-  * create controllers, models for conversations, messages
   * default page: sign in page
-  * user authentication
-  * permissions for users
   * views??
 
 ### RAILS DONE
+  * create controllers, models for conversations, messages
   * add bcrypt
   * validations:
     * password and password confirmation

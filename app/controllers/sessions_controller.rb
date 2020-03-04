@@ -8,7 +8,7 @@ class SessionsController < ApplicationController
       session[:user_id] = @user.id
       current_time = Time.new
       session[:updated_at] = current_time
-      redirect_to "/posts"
+      redirect_to "/conversations"
     else
       flash[:alert] = "There was a problem signing in. Please try again."
       redirect_to signin_path
