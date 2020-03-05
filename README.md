@@ -7,6 +7,7 @@ _Messaging site/app? with rails and react, using end-to-end encryption_
 ### RAILS STRUCTURE TODO
   * default page: sign in page
   * views??
+  * email verification
 
 ### RAILS DONE
   * create controllers, models for conversations, messages
@@ -33,3 +34,5 @@ _Messaging site/app? with rails and react, using end-to-end encryption_
   * tool to test rails security: https://brakemanscanner.org/
   * more encryption with rails: https://pawelurbanek.com/rails-secure-encrypt-decrypt
   * tool to validate strong password: https://api.rubyonrails.org/classes/ActiveModel/SecurePassword/ClassMethods.html
+
+  * https://dev.to/solutelabs/why-and-when-should-you-use-react-with-ruby-on-rails-2cfc
